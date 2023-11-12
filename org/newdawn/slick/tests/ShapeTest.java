@@ -1,0 +1,243 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.newdawn.slick.tests;
+
+import java.util.ArrayList;
+import org.newdawn.slick.AppGameContainer;
+import org.newdawn.slick.BasicGame;
+import org.newdawn.slick.Color;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.geom.Circle;
+import org.newdawn.slick.geom.Ellipse;
+import org.newdawn.slick.geom.Polygon;
+import org.newdawn.slick.geom.Rectangle;
+import org.newdawn.slick.geom.RoundedRectangle;
+import org.newdawn.slick.geom.Shape;
+import org.newdawn.slick.opengl.renderer.Renderer;
+
+public class ShapeTest
+extends BasicGame {
+    private Rectangle rect;
+    private RoundedRectangle roundRect;
+    private Ellipse ellipse;
+    private Circle circle;
+    private Polygon polygon;
+    private ArrayList shapes;
+    private boolean[] keys;
+    private char[] lastChar;
+    private Polygon randomShape = new Polygon();
+
+    public ShapeTest() {
+        super("Geom Test");
+    }
+
+    public void createPoly(float f, float f2) {
+        int n = 20;
+        int n2 = 10;
+        this.randomShape = new Polygon();
+        this.randomShape.addPoint(0 + (int)(Math.random() * (double)n2), 0 + (int)(Math.random() * (double)n2));
+        this.randomShape.addPoint(n - (int)(Math.random() * (double)n2), 0 + (int)(Math.random() * (double)n2));
+        this.randomShape.addPoint(n - (int)(Math.random() * (double)n2), n - (int)(Math.random() * (double)n2));
+        this.randomShape.addPoint(0 + (int)(Math.random() * (double)n2), n - (int)(Math.random() * (double)n2));
+        this.randomShape.setCenterX(f);
+        this.randomShape.setCenterY(f2);
+    }
+
+    @Override
+    public void init(GameContainer gameContainer) throws SlickException {
+        this.shapes = new ArrayList();
+        this.rect = new Rectangle(10.0f, 10.0f, 100.0f, 80.0f);
+        this.shapes.add(this.rect);
+        this.roundRect = new RoundedRectangle(150.0f, 10.0f, 60.0f, 80.0f, 20.0f);
+        this.shapes.add(this.roundRect);
+        this.ellipse = new Ellipse(350.0f, 40.0f, 50.0f, 30.0f);
+        this.shapes.add(this.ellipse);
+        this.circle = new Circle(470.0f, 60.0f, 50.0f);
+        this.shapes.add(this.circle);
+        this.polygon = new Polygon(new float[]{550.0f, 10.0f, 600.0f, 40.0f, 620.0f, 100.0f, 570.0f, 130.0f});
+        this.shapes.add(this.polygon);
+        this.keys = new boolean[256];
+        this.lastChar = new char[256];
+        this.createPoly(200.0f, 200.0f);
+    }
+
+    @Override
+    public void render(GameContainer gameContainer, Graphics graphics) {
+        graphics.setColor(Color.green);
+        for (int i = 0; i < this.shapes.size(); ++i) {
+            graphics.fill((Shape)this.shapes.get(i));
+        }
+        graphics.fill(this.randomShape);
+        graphics.setColor(Color.black);
+        graphics.setAntiAlias(true);
+        graphics.draw(this.randomShape);
+        graphics.setAntiAlias(false);
+        graphics.setColor(Color.white);
+        graphics.drawString("keys", 10.0f, 300.0f);
+        graphics.drawString("wasd - move rectangle", 10.0f, 315.0f);
+        graphics.drawString("WASD - resize rectangle", 10.0f, 330.0f);
+        graphics.drawString("tgfh - move rounded rectangle", 10.0f, 345.0f);
+        graphics.drawString("TGFH - resize rounded rectangle", 10.0f, 360.0f);
+        graphics.drawString("ry - resize corner radius on rounded rectangle", 10.0f, 375.0f);
+        graphics.drawString("ikjl - move ellipse", 10.0f, 390.0f);
+        graphics.drawString("IKJL - resize ellipse", 10.0f, 405.0f);
+        graphics.drawString("Arrows - move circle", 10.0f, 420.0f);
+        graphics.drawString("Page Up/Page Down - resize circle", 10.0f, 435.0f);
+        graphics.drawString("numpad 8546 - move polygon", 10.0f, 450.0f);
+    }
+
+    @Override
+    public void update(GameContainer gameContainer, int n) {
+        this.createPoly(200.0f, 200.0f);
+        if (this.keys[1]) {
+            System.exit(0);
+        }
+        if (this.keys[17]) {
+            if (this.lastChar[17] == 'w') {
+                this.rect.setY(this.rect.getY() - 1.0f);
+            } else {
+                this.rect.setHeight(this.rect.getHeight() - 1.0f);
+            }
+        }
+        if (this.keys[31]) {
+            if (this.lastChar[31] == 's') {
+                this.rect.setY(this.rect.getY() + 1.0f);
+            } else {
+                this.rect.setHeight(this.rect.getHeight() + 1.0f);
+            }
+        }
+        if (this.keys[30]) {
+            if (this.lastChar[30] == 'a') {
+                this.rect.setX(this.rect.getX() - 1.0f);
+            } else {
+                this.rect.setWidth(this.rect.getWidth() - 1.0f);
+            }
+        }
+        if (this.keys[32]) {
+            if (this.lastChar[32] == 'd') {
+                this.rect.setX(this.rect.getX() + 1.0f);
+            } else {
+                this.rect.setWidth(this.rect.getWidth() + 1.0f);
+            }
+        }
+        if (this.keys[20]) {
+            if (this.lastChar[20] == 't') {
+                this.roundRect.setY(this.roundRect.getY() - 1.0f);
+            } else {
+                this.roundRect.setHeight(this.roundRect.getHeight() - 1.0f);
+            }
+        }
+        if (this.keys[34]) {
+            if (this.lastChar[34] == 'g') {
+                this.roundRect.setY(this.roundRect.getY() + 1.0f);
+            } else {
+                this.roundRect.setHeight(this.roundRect.getHeight() + 1.0f);
+            }
+        }
+        if (this.keys[33]) {
+            if (this.lastChar[33] == 'f') {
+                this.roundRect.setX(this.roundRect.getX() - 1.0f);
+            } else {
+                this.roundRect.setWidth(this.roundRect.getWidth() - 1.0f);
+            }
+        }
+        if (this.keys[35]) {
+            if (this.lastChar[35] == 'h') {
+                this.roundRect.setX(this.roundRect.getX() + 1.0f);
+            } else {
+                this.roundRect.setWidth(this.roundRect.getWidth() + 1.0f);
+            }
+        }
+        if (this.keys[19]) {
+            this.roundRect.setCornerRadius(this.roundRect.getCornerRadius() - 1.0f);
+        }
+        if (this.keys[21]) {
+            this.roundRect.setCornerRadius(this.roundRect.getCornerRadius() + 1.0f);
+        }
+        if (this.keys[23]) {
+            if (this.lastChar[23] == 'i') {
+                this.ellipse.setCenterY(this.ellipse.getCenterY() - 1.0f);
+            } else {
+                this.ellipse.setRadius2(this.ellipse.getRadius2() - 1.0f);
+            }
+        }
+        if (this.keys[37]) {
+            if (this.lastChar[37] == 'k') {
+                this.ellipse.setCenterY(this.ellipse.getCenterY() + 1.0f);
+            } else {
+                this.ellipse.setRadius2(this.ellipse.getRadius2() + 1.0f);
+            }
+        }
+        if (this.keys[36]) {
+            if (this.lastChar[36] == 'j') {
+                this.ellipse.setCenterX(this.ellipse.getCenterX() - 1.0f);
+            } else {
+                this.ellipse.setRadius1(this.ellipse.getRadius1() - 1.0f);
+            }
+        }
+        if (this.keys[38]) {
+            if (this.lastChar[38] == 'l') {
+                this.ellipse.setCenterX(this.ellipse.getCenterX() + 1.0f);
+            } else {
+                this.ellipse.setRadius1(this.ellipse.getRadius1() + 1.0f);
+            }
+        }
+        if (this.keys[200]) {
+            this.circle.setCenterY(this.circle.getCenterY() - 1.0f);
+        }
+        if (this.keys[208]) {
+            this.circle.setCenterY(this.circle.getCenterY() + 1.0f);
+        }
+        if (this.keys[203]) {
+            this.circle.setCenterX(this.circle.getCenterX() - 1.0f);
+        }
+        if (this.keys[205]) {
+            this.circle.setCenterX(this.circle.getCenterX() + 1.0f);
+        }
+        if (this.keys[201]) {
+            this.circle.setRadius(this.circle.getRadius() - 1.0f);
+        }
+        if (this.keys[209]) {
+            this.circle.setRadius(this.circle.getRadius() + 1.0f);
+        }
+        if (this.keys[72]) {
+            this.polygon.setY(this.polygon.getY() - 1.0f);
+        }
+        if (this.keys[76]) {
+            this.polygon.setY(this.polygon.getY() + 1.0f);
+        }
+        if (this.keys[75]) {
+            this.polygon.setX(this.polygon.getX() - 1.0f);
+        }
+        if (this.keys[77]) {
+            this.polygon.setX(this.polygon.getX() + 1.0f);
+        }
+    }
+
+    @Override
+    public void keyPressed(int n, char c) {
+        this.keys[n] = true;
+        this.lastChar[n] = c;
+    }
+
+    @Override
+    public void keyReleased(int n, char c) {
+        this.keys[n] = false;
+    }
+
+    public static void main(String[] stringArray) {
+        try {
+            Renderer.setRenderer(2);
+            AppGameContainer appGameContainer = new AppGameContainer(new ShapeTest());
+            appGameContainer.setDisplayMode(800, 600, false);
+            appGameContainer.start();
+        }
+        catch (SlickException slickException) {
+            slickException.printStackTrace();
+        }
+    }
+}
+

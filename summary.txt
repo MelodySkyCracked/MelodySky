@@ -1,0 +1,747 @@
+Summary for melody-sky-deobf.jar
+Decompiled with CFR 0.152
+
+
+org.eclipse.swt.dnd.DragSource
+----------------------------
+
+GetData(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl45 : IF_ACMPNE - null : Stack underflow
+SetData(long long int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl61 : IF_ACMPNE - null : Stack underflow
+
+
+org.spongepowered.tools.obfuscation.validation.TargetValidator
+----------------------------
+
+validateClassMixin(javax.lang.model.element.TypeElement java.util.Collection )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl7 : ALOAD - null : trying to set 2 previously set to 0
+
+
+xyz.Melody.module.modules.QOL.Slayer.BlazeDagger
+----------------------------
+
+isInterceptable(net.minecraft.util.Vec3 net.minecraft.util.Vec3 net.minecraft.util.AxisAlignedBB )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl49 : ICONST_1 - null : trying to set 10 previously set to 12
+
+
+org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerOverwrite
+----------------------------
+
+registerOverwrite(org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerOverwrite$AnnotatedElementOverwrite )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl35 : ALOAD_3 - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.accessibility.Accessible
+----------------------------
+
+checkWidget()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ACMPNE - null : Stack underflow
+
+
+org.newdawn.slick.opengl.PNGDecoder
+----------------------------
+
+<init>(java.io.InputStream )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl24 : IF_ICMPGE - null : Stack underflow
+
+
+org.newdawn.slick.Input
+----------------------------
+
+poll(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl384 : IF_ICMPGE - null : Stack underflow
+
+
+org.eclipse.swt.graphics.Rectangle
+----------------------------
+
+intersects(org.eclipse.swt.graphics.Rectangle )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl18 : ICONST_1 - null : trying to set 0 previously set to 3
+
+
+org.eclipse.swt.widgets.Button
+----------------------------
+
+WM_UPDATEUISTATE(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl87 : IF_ICMPEQ - null : Stack underflow
+wmNotifyChild(org.eclipse.swt.internal.win32.NMHDR long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl16 : IF_ICMPEQ - null : Stack underflow
+
+
+org.spongepowered.asm.lib.Label
+----------------------------
+
+visitSubroutine(org.spongepowered.asm.lib.Label long int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl3 : ALOAD - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.internal.image.WinICOFileFormat
+----------------------------
+
+unloadIntoByteStream(org.eclipse.swt.graphics.ImageLoader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl28 : ALOAD_0 - null : trying to set 0 previously set to 1
+
+
+org.spongepowered.asm.mixin.transformer.ClassInfo
+----------------------------
+
+findSuperTypeForMixin(org.spongepowered.asm.mixin.transformer.ClassInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl12 : ALOAD_3 - null : trying to set 1 previously set to 0
+
+
+org.newdawn.slick.tests.GeomUtilTileTest
+----------------------------
+
+generateSpace(java.util.ArrayList float float float float int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl114 : ILOAD - null : trying to set 2 previously set to 0
+addToQuadSpace(org.newdawn.slick.geom.Shape )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl12 : ILOAD - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.internal.Library
+----------------------------
+
+loadLibrary(java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl107 : ILOAD - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.custom.DefaultContent
+----------------------------
+
+validateReplace(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl66 : RETURN - null : trying to set 2 previously set to 1
+moveAndResizeGap(int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl23 : IF_ICMPEQ - null : Stack underflow
+getLine(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl31 : IF_ICMPEQ - null : Stack underflow
+getFullLine(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl22 : IF_ICMPEQ - null : Stack underflow
+getTextRange(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl15 : IF_ICMPEQ - null : Stack underflow
+
+
+org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard
+----------------------------
+
+mergeMethod(org.spongepowered.asm.mixin.transformer.MixinTargetContext org.spongepowered.asm.lib.tree.MethodNode )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl42 : GOTO - null : trying to set 4 previously set to 9
+mergeAnnotations(java.util.List java.util.List java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl14 : ALOAD - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.module.modules.others.NickHider
+----------------------------
+
+onChat(net.minecraftforge.event.entity.EntityJoinWorldEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl126 : RETURN - null : trying to set 0 previously set to 1
+
+
+org.eclipse.swt.browser.WebSite
+----------------------------
+
+ProcessUrlAction(long int long int long int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl48 : IF_ICMPGE - null : Stack underflow
+
+
+xyz.Melody.module.balance.InvCleaner
+----------------------------
+
+onEvent(xyz.Melody.Event.events.world.EventTick )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl205 : ILOAD - null : trying to set 2 previously set to 0
+getBestPickaxe(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : ILOAD_3 - null : trying to set 1 previously set to 0
+getBestShovel(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : ILOAD_3 - null : trying to set 1 previously set to 0
+getBestAxe(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl9 : ILOAD_3 - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.module.modules.macros.Mining.PinglessMining
+----------------------------
+
+closestBlock(xyz.Melody.Event.events.rendering.EventRender3D )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl37 : ALOAD - null : trying to set 1 previously set to 0
+
+
+org.newdawn.slick.geom.Circle
+----------------------------
+
+contains(org.newdawn.slick.geom.Line )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl15 : ICONST_0 - null : trying to set 2 previously set to 4
+
+
+org.eclipse.swt.widgets.Display
+----------------------------
+
+post(org.eclipse.swt.widgets.Event )
+  Unable to fully structure code
+setData(java.lang.String java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl228 : ICONST_0 - null : trying to set 1 previously set to 2
+
+
+xyz.Melody.module.modules.QOL.GemStoneESP
+----------------------------
+
+onRenderWorld(xyz.Melody.Event.events.rendering.EventRender3D )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl12 : ALOAD_2 - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.Utils.pathfinding.PathFinder
+----------------------------
+
+getNeighbors(xyz.Melody.Utils.pathfinding.Lib.PathPos )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl221 : ALOAD_2 - null : trying to set 30 previously set to 31
+formatPath()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl35 : ALOAD_2 - null : trying to set 1 previously set to 0
+isPathStillValid(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl38 : ICONST_1 - null : trying to set 2 previously set to 3
+
+
+org.newdawn.slick.geom.Shape
+----------------------------
+
+contains(org.newdawn.slick.geom.Shape )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl8 : ILOAD_2 - null : trying to set 3 previously set to 1
+
+
+org.eclipse.swt.widgets.ToolItem
+----------------------------
+
+selectRadio()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl22 : ILOAD_3 - null : trying to set 1 previously set to 0
+setText(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl37 : ALOAD_0 - null : trying to set 0 previously set to 1
+
+
+xyz.Melody.module.modules.macros.Mining.GemstoneNuker
+----------------------------
+
+getBlock()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl72 : ALOAD - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.module.modules.QOL.MainWorld.AutoJerryBox
+----------------------------
+
+lambda$onTick$0()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl8 : ALOAD_0 - null : trying to set 1 previously set to 0
+
+
+org.newdawn.slick.util.pathfinding.navmesh.NavMesh
+----------------------------
+
+optimize(org.newdawn.slick.util.pathfinding.navmesh.NavPath )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl3 : ILOAD_2 - null : trying to set 4 previously set to 0
+
+
+org.eclipse.swt.widgets.Group
+----------------------------
+
+setText(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl42 : RETURN - null : trying to set 0 previously set to 1
+
+
+org.spongepowered.tools.agent.MixinAgent
+----------------------------
+
+transform(java.lang.ClassLoader java.lang.String java.lang.Class java.security.ProtectionDomain byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl21 : GETSTATIC - null : trying to set 0 previously set to 1
+
+
+chrriis.dj.nativeswing.NativeSwing
+----------------------------
+
+computeBlockedDialogs()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl54 : ILOAD_3 - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.GUI.Menu.MainMenu
+----------------------------
+
+func_73863_a(int int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl35 : IF_ICMPGE - null : Stack underflow
+drawMelodySkyLogo()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl185 : IF_ICMPGT - null : Stack underflow
+
+
+org.eclipse.swt.custom.ScrolledComposite
+----------------------------
+
+lambda$new$3(org.eclipse.swt.widgets.Event )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl45 : RETURN - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.module.modules.QOL.HideSummonings
+----------------------------
+
+onUpdate(xyz.Melody.Event.events.world.EventTick )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl12 : ALOAD_2 - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.internal.image.JPEGDecoder
+----------------------------
+
+read_restart_marker(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl5 : IF_ICMPNE - null : Stack underflow
+jpeg_huff_decode(org.eclipse.swt.internal.image.JPEGDecoder$bitread_working_state int int org.eclipse.swt.internal.image.JPEGDecoder$d_derived_tbl int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl33 : ILOAD - null : trying to set 6 previously set to 3
+read_markers(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl9 : IF_ICMPNE - null : Stack underflow
+decode_mcu_DC_refine(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct short[][] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl22 : ALOAD - null : trying to set 0 previously set to 1
+decode_mcu_AC_refine(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct short[][] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl35 : ALOAD_3 - null : trying to set 0 previously set to 1
+decode_mcu_AC_first(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct short[][] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl25 : ALOAD_3 - null : trying to set 0 previously set to 1
+decode_mcu_DC_first(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct short[][] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl25 : ALOAD_3 - null : trying to set 0 previously set to 1
+decode_mcu(org.eclipse.swt.internal.image.JPEGDecoder$jpeg_decompress_struct short[][] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl20 : ALOAD_3 - null : trying to set 0 previously set to 1
+
+
+org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector
+----------------------------
+
+registerInjector(org.spongepowered.tools.obfuscation.AnnotatedMixinElementHandlerInjector$AnnotatedElementInjector )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl59 : ALOAD - null : trying to set 4 previously set to 0
+
+
+org.eclipse.swt.custom.StyledTextRenderer
+----------------------------
+
+getLineHeight(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl34 : ALOAD_3 - null : trying to set 0 previously set to 1
+canLayout()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+needsRecalculateSize()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+
+
+org.spongepowered.asm.lib.tree.analysis.SimpleVerifier
+----------------------------
+
+merge(org.spongepowered.asm.lib.tree.analysis.BasicValue org.spongepowered.asm.lib.tree.analysis.BasicValue )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl57 : ALOAD_3 - null : trying to set 7 previously set to 4
+
+
+org.newdawn.slick.geom.NeatTriangulator
+----------------------------
+
+basicTriangulation()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl62 : ILOAD_1 - null : trying to set 4 previously set to 0
+
+
+org.spongepowered.asm.util.Locals
+----------------------------
+
+getLocalVariableAt(org.spongepowered.asm.lib.tree.ClassNode org.spongepowered.asm.lib.tree.MethodNode int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl10 : ALOAD - null : trying to set 1 previously set to 0
+
+
+xyz.Melody.module.modules.macros.Farming.LegitCropNuker
+----------------------------
+
+closestCrop(xyz.Melody.Event.events.rendering.EventRender3D )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl37 : ALOAD - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.internal.image.WinBMPFileFormat
+----------------------------
+
+unloadIntoByteStream(org.eclipse.swt.graphics.ImageLoader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl285 : RETURN - null : trying to set 0 previously set to 1
+
+
+xyz.Melody.System.Melody.Account.GuiAltManager
+----------------------------
+
+func_73863_a(int int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl485 : ALOAD - null : trying to set 6 previously set to 0
+
+
+org.eclipse.swt.widgets.Menu
+----------------------------
+
+createItem(org.eclipse.swt.widgets.MenuItem int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl90 : IF_ICMPNE - null : Stack underflow
+
+
+org.eclipse.swt.internal.image.TIFFModifiedHuffmanCodec
+----------------------------
+
+decode(byte[] byte[] int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl28 : IF_ICMPGE - null : Stack underflow
+
+
+org.eclipse.swt.widgets.Composite
+----------------------------
+
+resizeChildren()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl5 : ALOAD_0 - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.dnd.FileTransfer
+----------------------------
+
+javaToNative(java.lang.Object org.eclipse.swt.dnd.TransferData )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl7 : SIPUSH - null : trying to set 1 previously set to 2
+
+
+xyz.Melody.module.modules.QOL.Dungeons.StonkLessStonk
+----------------------------
+
+loadSecrets()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl39 : ALOAD - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.internal.image.PngInputStream
+----------------------------
+
+read()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl14 : IF_ICMPNE - null : Stack underflow
+read(byte[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl14 : IF_ICMPNE - null : Stack underflow
+
+
+org.newdawn.slick.util.pathfinding.navmesh.Space
+----------------------------
+
+link(org.newdawn.slick.util.pathfinding.navmesh.Space )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl99 : ALOAD_0 - null : trying to set 6 previously set to 8
+
+
+org.eclipse.swt.widgets.ExpandBar
+----------------------------
+
+computeSizeInPixels(int int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl21 : IF_ICMPNE - null : Stack underflow
+createWidget()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl8 : IF_ICMPNE - null : Stack underflow
+defaultBackground()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+drawWidget(org.eclipse.swt.graphics.GC org.eclipse.swt.internal.win32.RECT )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl4 : IF_ICMPNE - null : Stack underflow
+findBackgroundControl()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl5 : IF_ICMPNE - null : Stack underflow
+findThemeControl()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+
+
+xyz.Melody.module.balance.AutoArmor
+----------------------------
+
+getBestArmor()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl3 : ILOAD_1 - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.widgets.List
+----------------------------
+
+setSelection(java.lang.String[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl42 : ALOAD_0 - null : trying to set 1 previously set to 0
+
+
+org.newdawn.slick.opengl.renderer.VAOGLRenderer
+----------------------------
+
+glVertex3f(float float float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl142 : RETURN - null : trying to set 0 previously set to 2
+
+
+org.spongepowered.asm.launch.MixinBootstrap
+----------------------------
+
+init()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl1 : IFEQ - null : Stack underflow
+doInit(java.util.List )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl3 : IFNULL - null : Stack underflow
+
+
+org.eclipse.swt.widgets.Link
+----------------------------
+
+mnemonicHit(char )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl28 : ICONST_0 - null : trying to set 0 previously set to 1
+
+
+org.eclipse.swt.widgets.Control
+----------------------------
+
+translateTraversal(org.eclipse.swt.internal.win32.MSG )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl277 : ALOAD - null : trying to set 1 previously set to 0
+traverse(int char int int int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl98 : ALOAD - null : trying to set 1 previously set to 0
+WM_GESTURE(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl28 : ACONST_NULL - null : trying to set 0 previously set to 1
+WM_SYSCOMMAND(long long )
+  Handled duff style switch with additional control
+
+
+org.eclipse.swt.internal.image.PngChunk
+----------------------------
+
+validate(org.eclipse.swt.internal.image.PngFileReadState org.eclipse.swt.internal.image.PngIhdrChunk )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl51 : IF_ICMPNE - null : Stack underflow
+
+
+org.eclipse.swt.widgets.MenuItem
+----------------------------
+
+selectRadio()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl22 : ILOAD_3 - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.widgets.Table
+----------------------------
+
+_getItem(int boolean int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl190 : ALOAD_0 - null : trying to set 0 previously set to 1
+checkData(org.eclipse.swt.widgets.TableItem boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl13 : ICONST_1 - null : trying to set 0 previously set to 3
+getItemInPixels(org.eclipse.swt.graphics.Point )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl104 : ACONST_NULL - null : trying to set 0 previously set to 3
+isOptimizedRedraw()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl22 : IF_ICMPNE - null : Stack underflow
+wmNotifyChild(org.eclipse.swt.internal.win32.NMHDR long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl812 : ALOAD_0 - null : trying to set 3 previously set to 0
+wmNotifyHeader(org.eclipse.swt.internal.win32.NMHDR long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl66 : ARETURN - null : Stack underflow
+
+
+org.newdawn.slick.geom.BasicTriangulator
+----------------------------
+
+process(org.newdawn.slick.geom.BasicTriangulator$PointList org.newdawn.slick.geom.BasicTriangulator$PointList )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl59 : ILOAD - null : trying to set 6 previously set to 0
+
+
+org.eclipse.swt.widgets.Widget
+----------------------------
+
+wmLButtonDown(long long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl72 : ALOAD - null : trying to set 0 previously set to 1
+wmMouseMove(long long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl137 : ALOAD - null : trying to set 0 previously set to 3
+wmSysChar(long long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl54 : ILOAD - null : trying to set 1 previously set to 4
+
+
+xyz.Melody.module.modules.macros.Mining.MithrilNuker
+----------------------------
+
+getBlock()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl55 : ALOAD - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.widgets.Tree
+----------------------------
+
+getItemInPixels(org.eclipse.swt.graphics.Point )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl65 : ALOAD_2 - null : trying to set 3 previously set to 0
+getSelection()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Pushing with a non-literal as pushee.
+toolTipText(org.eclipse.swt.internal.win32.NMTTDISPINFO )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl149 : ALOAD_0 - null : trying to set 0 previously set to 6
+WM_LBUTTONDBLCLK(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl231 : ALOAD - null : trying to set 3 previously set to 0
+WM_MOUSEMOVE(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl143 : ALOAD - null : trying to set 0 previously set to 6
+wmNotifyChild(org.eclipse.swt.internal.win32.NMHDR long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl962 : ALOAD_0 - null : trying to set 2 previously set to 0
+wmNotifyHeader(org.eclipse.swt.internal.win32.NMHDR long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl56 : ARETURN - null : Stack underflow
+wmNotifyToolTip(org.eclipse.swt.internal.win32.NMTTCUSTOMDRAW long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl461 : ACONST_NULL - null : trying to set 6 previously set to 0
+
+
+xyz.Melody.Utils.Base64
+----------------------------
+
+isBase64(char )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPEQ - null : Stack underflow
+decode(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl66 : IF_ICMPGE - null : Stack underflow
+removeWhiteSpace(char[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl18 : IF_ICMPEQ - null : Stack underflow
+
+
+org.eclipse.swt.widgets.Decorations
+----------------------------
+
+translateAccelerator(org.eclipse.swt.internal.win32.MSG )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl24 : ICONST_1 - null : trying to set 1 previously set to 2
+
+
+org.newdawn.slick.util.pathfinding.AStarPathFinder
+----------------------------
+
+findPath(org.newdawn.slick.util.pathfinding.Mover int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl275 : IINC - null : trying to set 10 previously set to 5
+
+
+org.eclipse.swt.graphics.Color
+----------------------------
+
+equals(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl15 : IF_ICMPNE - null : Stack underflow
+getBlue()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+getGreen()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+getRed()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+getRGB()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+getRGBA()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+hashCode()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+toString()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl2 : IF_ICMPNE - null : Stack underflow
+
+
+org.newdawn.slick.geom.GeomUtil
+----------------------------
+
+subtract(org.newdawn.slick.geom.Shape org.newdawn.slick.geom.Shape )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl59 : ILOAD - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.internal.BidiUtil
+----------------------------
+
+getKeyboardLanguage()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl5 : IF_ICMPEQ - null : Stack underflow
+isBidiPlatform()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl13 : IF_ICMPGE - null : Stack underflow
+
+
+xyz.Melody.module.modules.QOL.Dungeons.AutoSell
+----------------------------
+
+onTick(xyz.Melody.Event.events.world.EventTick )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl45 : ALOAD_3 - null : trying to set 1 previously set to 0
+onDrawSlot(xyz.Melody.Event.events.container.DrawSlotEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl34 : RETURN - null : trying to set 0 previously set to 1
+
+
+org.eclipse.swt.widgets.Caret
+----------------------------
+
+releaseWidget()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl4 : IF_ACMPNE - null : Stack underflow
+setBoundsInPixels(int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl30 : IF_ACMPNE - null : Stack underflow
+setLocationInPixels(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl10 : IF_ACMPNE - null : Stack underflow
+setSizeInPixels(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: While processing lbl10 : IF_ACMPNE - null : Stack underflow
+
+
+xyz.Melody.module.modules.render.FairySoulESP
+----------------------------
+
+onR3D(xyz.Melody.Event.events.rendering.EventRender3D )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl7 : ALOAD_2 - null : trying to set 1 previously set to 0
+onPS(xyz.Melody.Event.events.world.EventPacketSend )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl46 : RETURN - null : trying to set 0 previously set to 1
+
+
+org.eclipse.swt.widgets.EventTable
+----------------------------
+
+sendEvent(org.eclipse.swt.widgets.Event )
+  Unable to fully structure code
+
+
+org.eclipse.swt.dnd.ByteArrayTransfer
+----------------------------
+
+javaToNative(java.lang.Object org.eclipse.swt.dnd.TransferData )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl7 : SIPUSH - null : trying to set 1 previously set to 2
+
+
+xyz.Melody.module.Module
+----------------------------
+
+makeCommand()
+  Unable to fully structure code
+
+
+org.spongepowered.asm.mixin.injection.points.BeforeInvoke
+----------------------------
+
+find(java.lang.String org.spongepowered.asm.lib.tree.InsnList java.util.Collection )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl26 : ALOAD - null : trying to set 2 previously set to 0
+
+
+org.eclipse.swt.ole.win32.OleClientSite
+----------------------------
+
+saveToTraditionalFile(java.io.File )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl52 : ICONST_0 - null : trying to set 0 previously set to 2
+
+
+xyz.Melody.module.balance.AimAssist
+----------------------------
+
+onUpdate(xyz.Melody.Event.events.Player.EventPreUpdate )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl36 : ALOAD - null : trying to set 1 previously set to 0
+
+
+org.eclipse.swt.internal.image.JPEGFileFormat
+----------------------------
+
+inverseDCT(int[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl3 : ILOAD_2 - null : trying to set 2 previously set to 0
+
+
+org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard
+----------------------------
+
+attachMethods(org.spongepowered.asm.mixin.transformer.MixinTargetContext )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl6 : ALOAD_2 - null : trying to set 2 previously set to 0
+attachFields(org.spongepowered.asm.mixin.transformer.MixinTargetContext )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl6 : ALOAD_2 - null : trying to set 3 previously set to 0
+
+
+org.spongepowered.tools.obfuscation.mirror.TypeHandle
+----------------------------
+
+findField(java.lang.String java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl14 : ALOAD - null : trying to set 6 previously set to 0
+findMethod(javax.lang.model.element.TypeElement java.lang.String java.lang.String java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl15 : ALOAD - null : trying to set 6 previously set to 0
+
+
+org.eclipse.swt.custom.StyledText
+----------------------------
+
+handleMouseDown(org.eclipse.swt.widgets.Event )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl11 : ALOAD_1 - null : trying to set 0 previously set to 1
+computeModifiedLines(int[] org.eclipse.swt.custom.StyleRange[] int[] org.eclipse.swt.custom.StyleRange[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl87 : ILOAD - null : trying to set 6 previously set to 0
+showSelection()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl118 : RETURN - null : trying to set 0 previously set to 1
+
+
+org.spongepowered.asm.mixin.injection.points.BeforeNew
+----------------------------
+
+find(java.lang.String org.spongepowered.asm.lib.tree.InsnList java.util.Collection )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl19 : ALOAD - null : trying to set 1 previously set to 0
+
+
+chrriis.dj.nativeswing.swtimpl.components.JHTMLEditor
+----------------------------
+
+<init>(chrriis.dj.nativeswing.swtimpl.components.JHTMLEditor$HTMLEditorImplementation chrriis.dj.nativeswing.NSOption[] )
+  Unable to fully structure code
+
+
+org.eclipse.swt.custom.StyleRange
+----------------------------
+
+equals(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Invalid stack depths @ lbl27 : ICONST_0 - null : trying to set 0 previously set to 1

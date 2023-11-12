@@ -1,0 +1,18 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package org.eclipse.swt.internal.win32;
+
+import org.eclipse.swt.internal.win32.OS;
+
+public class HELPINFO {
+    public int cbSize;
+    public int iContextType;
+    public int iCtrlId;
+    public long hItemHandle;
+    public int dwContextId;
+    public int x;
+    public int y;
+    public static final int sizeof = OS.HELPINFO_sizeof();
+}
+
